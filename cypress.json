@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://airmalta.com/",
+    "testFiles": "**/*.{feature, features}",
+    "chromeWebSecurity": false,
+    "videoUploadOnPasses": false,
+    "viewportWidth": 1280,
+    "defaultCommandTimeout": 30000,
+    "viewportHeight": 800,
+    "requestTimeout": 30000
+}

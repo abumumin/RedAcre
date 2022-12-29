@@ -1,0 +1,18 @@
+{
+  "bookButton": "li:nth-of-type(1) > .dropdown-toggle.nav-link",
+  "FlightSchedule": "li:nth-of-type(1) > .dropdown-menu.megamenu > .d-flex.justify-content-around  .links > a:nth-of-type(1)",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "tripType": "div[role='textbox'] > input[title='Round trip']",
+  "OneWayTravel": ".input-drop-container.select-option-container > div:nth-of-type(2)",
+  "DepartingField": ".route-selection-origin > .input-holder > .form-control > .ellipsis",
+  "DepartingText": "Vienna",
+  "ResultOption": "div[role='button'] > .airport-name.ellipsis",
+  "FlyingToField": ".route-selection-destination .ellipsis",
+  "FlyingToText" : "Malta",
+  "DepartureDateField": "input[placeholder='dd/mm']",
+  "DepartureDate": ".DayPicker-Month:nth-of-type(2) > .DayPicker-Body > .DayPicker-Week:nth-of-type(3)>.DayPicker-Day:nth-of-type(4)",
+  "DepartureDate2" : ".DayPicker-Months [role='grid']:nth-of-type(1) [role='row']:nth-of-type(5) [tabindex='-1']:nth-of-type(5) .calendar-day",
+  "FindFlightButtons" : ".input-holder [type='submit']",
+  "FlexibleDateButton" : ".LinkUI__Link-beRZqo.bPsqFM"
+
+}
