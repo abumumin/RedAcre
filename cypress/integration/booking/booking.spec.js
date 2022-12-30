@@ -33,13 +33,13 @@ And("I insert a date", () => {
 });
 
 Then('I should see the price of the first available flight', () => {
-    cy.get('.sc-jlIkXa')
-    .find('[class="sc-dkaWxM bZQAjI"]').eq(0)
-    .find('[class="sc-eishCr kyspjp"]')
-    .find('[class="sc-ksXhwv iVzzFR"]')
-    .find('[class="sc-bGqQkm lcbctZ"]')
-    .find('[class="sc-gInsOo fIWhZG"]')
-    .find('[class="sc-euMpXR dEdBnT"]').invoke('text').then((val)=>{
+    cy.get(elements.calenderLocator)
+    .find(elements.calenderLocator1).eq(0)
+    .find(elements.calenderLocator2)
+    .find(elements.calenderLocator3)
+    .find(elements.calenderLocator4)
+    .find(elements.calenderLocator5)
+    .find(elements.calenderLocator6).invoke('text').then((val)=>{
         cy.log(val)
         console.log(val)
     })

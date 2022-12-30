@@ -14,6 +14,12 @@
   "DepartureDate2" : ".DayPicker-Months [role='grid']:nth-of-type(1) [role='row']:nth-of-type(5) [tabindex='-1']:nth-of-type(5) .calendar-day",
   "FindFlightButtons" : ".input-holder [type='submit']",
   "FlexibleDateButton" : ".LinkUI__Link-beRZqo.bPsqFM",
-  "calenderLocator": ".ekwLql.sc-jlIkXa > [class='sc-dkaWxM bZQAjI']"
+  "calenderLocator": ".sc-jlIkXa",
+  "calenderLocator1": "[class='sc-dkaWxM bZQAjI']",
+  "calenderLocator2": "[class='sc-eishCr kyspjp']",
+  "calenderLocator3": "[class='sc-ksXhwv iVzzFR']",
+  "calenderLocator4": "[class='sc-bGqQkm lcbctZ']",
+  "calenderLocator5": "[class='sc-gInsOo fIWhZG']",
+  "calenderLocator6": "[class='sc-euMpXR dEdBnT']"
 
 }
