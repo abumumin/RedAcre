@@ -26,14 +26,15 @@ And("I input departure and arrival locations", () => {
 
 And("I insert a date", () => {
     cy.clickAnElement(elements.DepartureDateField)
-    cy.intercept('/schedule/flights.json?from=2023-02-01&to=2023-12-29&origin=VIE&dest=MLA&roundTrip=0').as('dateOption')
-    cy.wait('@dateOption')
+    // cy.intercept('/schedule/flights.json?from=2023-02-01&to=2023-12-29&origin=VIE&dest=MLA&roundTrip=0').as('dateOption')
+    // cy.wait('@dateOption')
     cy.clickAnElement(elements.DepartureDate)
     //cy.clickAnElement(elements.DepartureDate2)
 });
 
 Then('I should see the price of the first available flight', () => {
-    cy.get('.ekwLql.sc-jlIkXa > [class="sc-dkaWxM bZQAjI"]').eq(0)
+    cy.get('.sc-jlIkXa')
+    .find('[class="sc-dkaWxM bZQAjI"]').eq(0)
     .find('[class="sc-eishCr kyspjp"]')
     .find('[class="sc-ksXhwv iVzzFR"]')
     .find('[class="sc-bGqQkm lcbctZ"]')

@@ -1,14 +1,13 @@
 # Tools, Framework and Liberaries Used
 
->Framework: **Cypress** 
+Framework: **Cypress** 
 
->Any IDE that support JAVASCRIPT can be used, VS code is light weight and easy to use. Thus it is recommeneded.
+Any IDE that support JAVASCRIPT can be used, VS code is light weight and easy to use. Thus it is recommeneded.
 
-> Framework Version: **9.7.0** 
+Framework Version: **9.7.0**
+Supporting Language: **Javascript**
 
-> Supporting Language: **Javascript**
-
-> Supporting Libraries: 
+Supporting Libraries: 
 * Node.js (12 or Higher) 
 * Cypress Fill Command [https://www.npmjs.com/package/cypress-fill-command#installation]
 * cypress-cucumber-preprocessor [https://www.npmjs.com/package/cypress-cucumber-preprocessor#installation]
@@ -21,7 +20,7 @@ Running tests locally
 
 * Use npx cypress open or node_modules/.bin/cypress open to open the test runner and execute a visual regression locally. 
 * Use npx cypress run or node_modules/.bin/cypress run to run the test in headless mode *Use npx cypress run -b <browser_type> --headless to run in headless mode with a specific browser
-* Use npx cypress run --spec to run a specific test
+
 ****
 
 # Supported Browsers

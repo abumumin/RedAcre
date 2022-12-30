@@ -13,6 +13,7 @@
   "DepartureDate": ".DayPicker-Month:nth-of-type(2) > .DayPicker-Body > .DayPicker-Week:nth-of-type(3)>.DayPicker-Day:nth-of-type(4)",
   "DepartureDate2" : ".DayPicker-Months [role='grid']:nth-of-type(1) [role='row']:nth-of-type(5) [tabindex='-1']:nth-of-type(5) .calendar-day",
   "FindFlightButtons" : ".input-holder [type='submit']",
-  "FlexibleDateButton" : ".LinkUI__Link-beRZqo.bPsqFM"
+  "FlexibleDateButton" : ".LinkUI__Link-beRZqo.bPsqFM",
+  "calenderLocator": ".ekwLql.sc-jlIkXa > [class='sc-dkaWxM bZQAjI']"
 
 }
